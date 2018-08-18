@@ -1,3 +1,3 @@
 module.exports = {
-  log: () => console.log(123456)
+  log: () => console.log(1234576)
 };
