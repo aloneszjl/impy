@@ -2,8 +2,10 @@
   "name": "impy-redux",
   "version": "1.0.2",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
+    "build": "gulp build",
+    "prepublishOnly": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "update": "npm update"
   },
@@ -11,7 +13,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "impy-utils": "^1.0.2",
-    "lodash": "^4.17.10"
+    "impy-utils": "^1.0.2"
   }
 }
