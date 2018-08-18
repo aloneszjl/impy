@@ -1,6 +1,6 @@
 {
   "name": "impy-redux",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "lodash": "^4.17.10",
-    "impy-utils": "^1.0.0"
+    "impy-utils": "^1.0.1",
+    "lodash": "^4.17.10"
   }
 }
