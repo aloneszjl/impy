@@ -1,0 +1,29 @@
+0 warn deprecated --skip-git has been replaced by --no-git-tag-version --no-push
+1 silly argv { _: [ 'publish' ],
+1 silly argv   progress: true,
+1 silly argv   ci: false,
+1 silly argv   c: true,
+1 silly argv   canary: true,
+1 silly argv   loglevel: 'info',
+1 silly argv   composed: true,
+1 silly argv   lernaVersion: '3.0.6',
+1 silly argv   '$0': 'lerna',
+1 silly argv   gitTagVersion: false,
+1 silly argv   'git-tag-version': false,
+1 silly argv   push: false }
+2 verbose rootPath /Users/jialin/learning/learn-lerna
+3 info canary enabled
+4 silly hasTags
+5 verbose hasTags false
+6 info Looking for changed packages since initial commit.
+7 verbose updated impy-redux
+8 verbose updated impy-utils
+9 error Error: Command failed: git describe --match v*.*.*
+9 error fatal: No names found, cannot describe anything.
+9 error
+9 error
+9 error     at makeError (/usr/local/lib/node_modules/lerna/node_modules/execa/index.js:172:9)
+9 error     at Function.module.exports.sync (/usr/local/lib/node_modules/lerna/node_modules/execa/index.js:341:15)
+9 error     at Object.execSync (/usr/local/lib/node_modules/lerna/node_modules/@lerna/child-process/index.js:22:16)
+9 error     at gitDescribeMatching (/usr/local/lib/node_modules/lerna/node_modules/@lerna/publish/index.js:216:20)
+9 error     at chain.then.updates (/usr/local/lib/node_modules/lerna/node_modules/@lerna/publish/index.js:232:27)
