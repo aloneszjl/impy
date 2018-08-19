@@ -2,6 +2,7 @@
   "name": "impy",
   "private": true,
   "scripts": {
+    "release": "lerna run build && lerna publish",
     "deploy": "lerna publish",
     "bootstrap": "lerna bootstrap",
     "update": "lerna run update --stream"
