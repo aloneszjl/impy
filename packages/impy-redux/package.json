@@ -7,12 +7,27 @@
     "build": "gulp build",
     "prepublishOnly": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "update": "npm update"
+    "update": "ncu -a"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "impy-utils": "^1.0.2"
+    "impy-utils": "^1.0.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "del": "^2.2.2",
+    "eslint": "^4.18.2",
+    "eslint-plugin-import": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-eslint": "^3.0.1",
+    "gulp-sourcemaps": "^2.5.1",
+    "gulp-uglify": "^3.0.0",
+    "lerna": "^3.0.6"
   }
 }

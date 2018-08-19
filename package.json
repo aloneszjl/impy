@@ -3,7 +3,8 @@
   "private": true,
   "scripts": {
     "deploy": "lerna publish",
-    "bootstrap": "lerna bootstrap"
+    "bootstrap": "lerna bootstrap",
+    "update": "lerna run update --stream"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.2",
