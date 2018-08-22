@@ -1,5 +1,3 @@
-import wepy from "wepy";
-
 const storageApis = [
   "getStorage",
   "setStorage",
@@ -13,7 +11,7 @@ const storage = storageApis.reduce(
     ...finalStorage,
     [api]: args =>
       new Promise((resolve, reject) =>
-        wepy[api]({
+        wx[api]({
           ...args,
           success: res => resolve(res),
           fail: err => reject(err)
