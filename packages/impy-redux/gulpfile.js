@@ -1,7 +1,7 @@
 const gulp = require("gulp");
 const del = require("del");
 const babel = require("gulp-babel");
-const sourcemaps = require("gulp-sourcemaps");
+// const sourcemaps = require("gulp-sourcemaps");
 
 const distFile = "./dist";
 
@@ -23,8 +23,8 @@ gulp.task("clean", cleanDist);
 gulp.task("build", ["clean"], () =>
   gulp
     .src("./src/**/*.js")
-    .pipe(sourcemaps.init())
+    // .pipe(sourcemaps.init())
     .pipe(babel())
-    .pipe(sourcemaps.write("./"))
+    // .pipe(sourcemaps.write("./"))
     .pipe(gulp.dest(distFile))
 );

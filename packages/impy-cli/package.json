@@ -1,0 +1,21 @@
+{
+  "name": "impy-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "checkUpdate": "ncu impy-redux -a --packageFile package.json",
+    "impy": "impy check"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "chalk": "^2.4.1",
+    "shelljs": "^0.8.2"
+  },
+  "bin": {
+    "impy": "index.js"
+  }
+}
