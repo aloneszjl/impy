@@ -2,7 +2,7 @@
   "packages": ["packages/*"],
   "command": {
     "publish": {
-      "message": "release impy"
+      "message": "publish impy packages"
     }
   },
   "version": "independent"
