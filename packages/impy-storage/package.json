@@ -1,0 +1,17 @@
+{
+  "name": "impy-storage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "gulp build",
+    "prepublishOnly": "npm run build",
+    "update": "ncu impy-utils -a --packageFile package.json",
+    "checkUpdate": "ncu impy-redux -a --packageFile package.json",
+    "impy": "impy check",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
